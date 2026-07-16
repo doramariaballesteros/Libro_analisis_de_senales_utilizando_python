@@ -2,12 +2,6 @@
 
 Repositorio oficial del libro **Análisis de Señales utilizando Python**. 
 
-Este no es un libro escrito desde la perfección, sino desde la experiencia.
-Desde los aciertos, pero también desde los errores que me enseñaron cómo
-explicar mejor. Desde la convicción de que las señales no son solo expresiones
-matemáticas, sino formas de representar fenómenos reales que vale la pena
-entender
-
 Este repositorio reúne el material complementario del libro, incluyendo notebooks de Jupyter y los recursos necesarios para reproducir los experimentos desarrollados a lo largo de los diferentes capítulos.
 
 El objetivo es facilitar el aprendizaje práctico del análisis de señales mediante ejemplos completamente reproducibles utilizando Python.
