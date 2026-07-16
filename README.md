@@ -1,4 +1,5 @@
-# Análisis de Señales utilizando Python
+# 📘 Análisis de Señales utilizando Python
+
 
 Repositorio oficial del libro **Análisis de Señales utilizando Python**. 
 
@@ -8,7 +9,7 @@ El objetivo es facilitar el aprendizaje práctico del análisis de señales medi
 
 ---
 
-# Contenido del repositorio
+## 📂 Contenido del repositorio
 
 El repositorio está organizado por capítulos.
 
@@ -26,7 +27,7 @@ Cada capítulo contiene un único notebook de Jupyter, diseñado para ejecutarse
 
 ---
 
-# Organización del libro
+## 📖 Organización del libro
 
 ## Capítulo 1. Fundamentos de Señales Análogas y Señales Discretas
 
@@ -80,7 +81,7 @@ Notebook del capítulo:
 
 ---
 
-# Requisitos
+## ⚙️ Requisitos
 
 Los notebooks fueron desarrollados en Python.
 
@@ -92,7 +93,7 @@ pip install -r requirements.txt
 
 ---
 
-# Ejecución
+## ▶️ Ejecución
 
 Los notebooks pueden ejecutarse en:
 
@@ -103,7 +104,7 @@ Los notebooks pueden ejecutarse en:
 
 ---
 
-# Público objetivo
+## 🎓 Público objetivo
 
 Este material está dirigido a:
 
@@ -113,7 +114,7 @@ Este material está dirigido a:
 
 ---
 
-# Cómo citar
+## 📚 Cómo citar
 
 Si este material resulta útil para su trabajo académico o de investigación, agradecemos citar el libro correspondiente.
 
@@ -127,7 +128,8 @@ Libro disponible en: https://editorial.redipe.org/index.php/1/catalog/book/250
 
 ---
 
-# Licencia
+## 📄 Licencia
+
 
 Este repositorio se distribuye únicamente con fines educativos y de investigación.
 
@@ -135,7 +137,7 @@ Consulte el archivo **LICENSE** para más información.
 
 ---
 
-# Contacto
+## 📧 Contacto
 
 **Prof. Dora María Ballesteros**  
 Universidad Militar Nueva Granada
