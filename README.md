@@ -1,6 +1,6 @@
 # Análisis de Señales utilizando Python
 
-Repositorio oficial del libro **Análisis de Señales utilizando Python**.
+Repositorio oficial del libro **Análisis de Señales utilizando Python**.  Llibro escrito desde la perfección, sino desde la experiencia
 
 Este repositorio reúne el material complementario del libro, incluyendo notebooks de Jupyter y los recursos necesarios para reproducir los experimentos desarrollados a lo largo de los diferentes capítulos.
 
