@@ -20,6 +20,17 @@ El objetivo del repositorio es facilitar un aprendizaje activo, donde el lector 
 
 ---
 
+# 📚 Contenido del libro
+
+| Cap. | Tema | Descripción | 📒 Notebook |
+|:---:|------|-------------|:----------:|
+| **1** | 📈 **Fundamentos de Señales Análogas y Señales Discretas** | Introducción a los conceptos fundamentales de las señales continuas y discretas, operaciones básicas, representación gráfica y propiedades esenciales para el análisis de sistemas. | [Abrir](Capitulo1.ipynb) |
+| **2** | ⚙️ **Sistemas LTI (Lineales e Invariantes en el Tiempo)** | Estudio de los sistemas lineales e invariantes en el tiempo, respuesta al impulso, convolución y propiedades fundamentales para el análisis y procesamiento de señales. | [Abrir](Capitulo2.ipynb) |
+| **3** | 🌊 **Señal Exponencial Compleja y Series de Fourier** | Representación de señales mediante exponenciales complejas y Series de Fourier para el análisis de señales periódicas en el dominio de la frecuencia. | [Abrir](Capitulo3.ipynb) |
+| **4** | 📶 **Transformada de Fourier de Señales Periódicas y Aperiódicas** | Desarrollo de la Transformada de Fourier para el análisis espectral de señales periódicas y aperiódicas, con aplicaciones prácticas implementadas en Python. | [Abrir](Capitulo4.ipynb) |
+
+---
+
 ## 📂 Contenido del repositorio
 
 El repositorio está organizado por capítulos.
