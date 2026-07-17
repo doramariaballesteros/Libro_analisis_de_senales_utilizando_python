@@ -163,11 +163,12 @@ ISBN: **978-1-957395-65-4**
 Este repositorio se distribuye con fines académicos y educativos. Consulte el archivo **LICENSE** para conocer los términos de uso.
 
 
-## 📧 Contacto
+# 📧 Contacto
 
-**Prof. Dora María Ballesteros**  
+**Dora María Ballesteros**  
+Profesora e Investigadora  
 Universidad Militar Nueva Granada
 
-📧 dora.ballesteros@unimilitar.edu.co
+📧 **dora.ballesteros@unimilitar.edu.co**
 
-Bogotá, Colombia
+📍 Bogotá, Colombia
