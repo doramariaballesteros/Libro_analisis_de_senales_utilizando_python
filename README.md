@@ -124,61 +124,44 @@ A través de los notebooks el lector aprenderá a:
 
 ---
 
-## ⚙️ Requisitos
+# 💻 Requisitos
 
-Los notebooks fueron desarrollados en Python.
+Los notebooks fueron desarrollados en **Python** utilizando bibliotecas ampliamente empleadas en el análisis y procesamiento digital de señales, entre ellas:
 
-Se recomienda crear un entorno virtual e instalar las dependencias mediante:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## ▶️ Ejecución
+- NumPy
+- SciPy
+- Matplotlib
+- Librosa
+- SoundFile
+- IPython.display
 
 Los notebooks pueden ejecutarse en:
 
-- Google Colab (100% compatible).
-- Jupyter Notebook.
-- JupyterLab.
-- Visual Studio Code.
+- Jupyter Notebook
+- JupyterLab
+- Google Colab (100% compatible)
 
 ---
 
-## 🎓 Público objetivo
+# 📖 Referencia del libro
 
-Este material está dirigido a:
-
-- Estudiantes de ingeniería (telecomunicaciones, electrónica, multimedia, mecatrónica, sistemas y carreras afines).
-- Profesores de ingeniería y de matemática aplicada.
-- Profesionales e investigadores interesados en análisis de señales continuas y discretas, y análisis espectral.
-
----
-
-## 📚 Cómo citar
-
-Si este material resulta útil para su trabajo académico o de investigación, agradecemos citar el libro correspondiente.
-
-**Dora María Ballesteros**
-
-*Análisis de Señales utilizando Python.*
-
-Editorial Redipe (2026).
-
-Libro disponible en: https://editorial.redipe.org/index.php/1/catalog/book/250
+**Ballesteros, D. M. (2026).**  
+*Análisis de Señales utilizando Python.*  
+Editorial Redipe.  
+ISBN: **978-1-957395-65-4**
 
 ---
 
-## 📄 Licencia
+# 👩‍🏫 Sobre la autora
 
-
-Este repositorio se distribuye únicamente con fines educativos y de investigación.
-
-Consulte el archivo **LICENSE** para más información.
+**Dora María Ballesteros** es profesora e investigadora de la **Universidad Militar Nueva Granada (Colombia)**. Su trabajo se centra en Ciencia de Datos, Inteligencia Artificial, Procesamiento Digital de Señales y Aprendizaje Profundo. Es autora de diversos libros y artículos científicos en Ciencia de Datos, Inteligencia Artificial y Procesamiento Digital de Señales, promoviendo el desarrollo de recursos educativos y herramientas de software de código abierto para la comunidad académica.
 
 ---
+
+# 📄 Licencia
+
+Este repositorio se distribuye con fines académicos y educativos. Consulte el archivo **LICENSE** para conocer los términos de uso.
+
 
 ## 📧 Contacto
 
