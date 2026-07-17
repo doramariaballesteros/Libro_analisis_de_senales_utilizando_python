@@ -1,11 +1,22 @@
 # 📘 Análisis de Señales utilizando Python
 
+> **Repositorio oficial del libro**
+>
+> **Análisis de Señales Utilizando Python**  
+> **Dora María Ballesteros**  
+> **Editorial Redipe, 2026**
 
-Repositorio oficial del libro **Análisis de Señales utilizando Python**. 
+---
 
-Este repositorio reúne el material complementario del libro, incluyendo notebooks de Jupyter y los recursos necesarios para reproducir los experimentos desarrollados a lo largo de los diferentes capítulos.
+## 📖 Sobre este repositorio
 
-El objetivo es facilitar el aprendizaje práctico del análisis de señales mediante ejemplos completamente reproducibles utilizando Python.
+Este repositorio contiene el material práctico del libro **Análisis de Señales utilizando Python** (Editorial Redipe, 2026).
+
+El libro integra los fundamentos teóricos del análisis de señales con ejemplos y casos de estudio completamente reproducibles desarrollados en **Python** mediante **Jupyter Notebooks**, permitiendo al lector comprender, visualizar y experimentar con las principales técnicas de análisis en los dominios del tiempo y de la frecuencia.
+
+Los notebooks acompañan cada uno de los capítulos prácticos del libro e incluyen el desarrollo paso a paso de los algoritmos, la visualización de resultados y el análisis e interpretación de señales reales y sintéticas.
+
+El objetivo del repositorio es facilitar un aprendizaje activo, donde el lector pueda ejecutar, modificar y extender cada uno de los ejemplos presentados en el libro, fortaleciendo sus competencias en procesamiento y análisis de señales utilizando Python.
 
 ---
 
