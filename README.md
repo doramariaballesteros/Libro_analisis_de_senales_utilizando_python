@@ -49,11 +49,18 @@ Cada capítulo contiene un único notebook de Jupyter, diseñado para ejecutarse
 
 ---
 
-## 📖 Organización del libro
+# 📖 Organización del libro
 
-## Capítulo 1. Fundamentos de Señales Análogas y Señales Discretas
+# 📈 Capítulo 1. Fundamentos de Señales Análogas y Señales Discretas
 
-Notebook del capítulo:
+📒 **Notebook:**  
+[Capitulo1.ipynb](Capitulo1.ipynb)
+
+### 🎯 Objetivo
+
+Comprender los conceptos fundamentales de las señales en tiempo continuo y tiempo discreto, así como las principales transformaciones temporales utilizadas en el análisis de señales mediante ejemplos desarrollados en Python.
+
+### 📑 Contenido del notebook
 
 - Ejemplo 1. Señal senoidal.
 - Ejemplo 2. Señales discretas con índice entero.
@@ -64,16 +71,23 @@ Notebook del capítulo:
 - Ejemplo 7. Compresión de una señal en tiempo continuo.
 - Ejemplo 8. Dilatación de una señal en tiempo continuo.
 - Ejemplo 9. Compresión de una señal discreta.
-- Ejemplo 10. Dilatación de una señal discreta (caso α = 1/q).
-- Ejemplo 11. Dilatación de una señal discreta (caso α = p/q).
+- Ejemplo 10. Dilatación de una señal discreta (α = 1/q).
+- Ejemplo 11. Dilatación de una señal discreta (α = p/q).
 - Ejemplo 12. Combinación de transformaciones en una señal discreta.
 - Ejemplo 17. Sistema invariante.
 
 ---
 
-## Capítulo 2. Sistemas LTI (Lineales e Invariantes en el Tiempo)
+# ⚙️ Capítulo 2. Sistemas LTI (Lineales e Invariantes en el Tiempo)
 
-Notebook del capítulo:
+📒 **Notebook:**  
+[Capitulo2.ipynb](Capitulo2.ipynb)
+
+### 🎯 Objetivo
+
+Analizar el comportamiento de los sistemas lineales e invariantes en el tiempo mediante la representación de señales utilizando impulsos y el desarrollo de la operación de convolución.
+
+### 📑 Contenido del notebook
 
 - Señal impulso en tiempo discreto.
 - Ejemplo 18. Representación de una señal discreta a partir de impulsos desplazados.
@@ -81,9 +95,16 @@ Notebook del capítulo:
 
 ---
 
-## Capítulo 3. Señal Exponencial Compleja y Series de Fourier
+# 🌊 Capítulo 3. Señal Exponencial Compleja y Series de Fourier
 
-Notebook del capítulo:
+📒 **Notebook:**  
+[Capitulo3.ipynb](Capitulo3.ipynb)
+
+### 🎯 Objetivo
+
+Estudiar la representación de señales periódicas mediante exponenciales complejas y Series de Fourier, interpretando su contenido espectral a través de ejemplos desarrollados en Python.
+
+### 📑 Contenido del notebook
 
 - Ejemplo 21. Manipulación de exponenciales complejas.
 - Ejemplo 24. Serie de Fourier de una señal cuadrada periódica.
@@ -94,13 +115,19 @@ Notebook del capítulo:
 
 ---
 
-## Capítulo 4. Transformada de Fourier de Señales Periódicas y Aperiódicas
+# 📶 Capítulo 4. Transformada de Fourier de Señales Periódicas y Aperiódicas
 
-Notebook del capítulo:
+📒 **Notebook:**  
+[Capitulo4.ipynb](Capitulo4.ipynb)
+
+### 🎯 Objetivo
+
+Aplicar la Transformada de Fourier para analizar el contenido espectral de señales periódicas y aperiódicas, utilizando herramientas computacionales desarrolladas en Python.
+
+### 📑 Contenido del notebook
 
 - Ejemplo 32. Transformada de Fourier de una suma de señales cosenoidales.
 - Ejemplo 43. Análisis espectral de una señal de voz con ruido externo tipo tono.
-
 ---
 
 ## ⚙️ Requisitos
