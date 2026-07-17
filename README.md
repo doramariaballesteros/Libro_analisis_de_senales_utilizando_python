@@ -31,26 +31,6 @@ El objetivo del repositorio es facilitar un aprendizaje activo, donde el lector 
 
 ---
 
-## 📂 Contenido del repositorio
-
-El repositorio está organizado por capítulos.
-
-```
-├── capitulo1/
-├── capitulo2/
-├── capitulo3/
-├── capitulo4/
-├── datasets/
-├── requirements.txt
-└── README.md
-```
-
-Cada capítulo contiene un único notebook de Jupyter, diseñado para ejecutarse tanto de manera local como en **Google Colab**, junto con los recursos necesarios para reproducir los ejemplos presentados en el libro.
-
----
-
-# 📖 Organización del libro
-
 # 📈 Capítulo 1. Fundamentos de Señales Análogas y Señales Discretas
 
 📒 **Notebook:**  
