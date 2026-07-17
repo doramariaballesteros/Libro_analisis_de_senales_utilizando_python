@@ -58,7 +58,7 @@ Comprender los conceptos fundamentales de las señales en tiempo continuo y tiem
 
 ---
 
-# ⚙️ Capítulo 2. Sistemas LTI (Lineales e Invariantes en el Tiempo)
+# 🔄 Capítulo 2. Sistemas LTI (Lineales e Invariantes en el Tiempo)
 
 📒 **Notebook:**  
 [Capitulo2.ipynb](Capitulo2.ipynb)
@@ -75,7 +75,7 @@ Analizar el comportamiento de los sistemas lineales e invariantes en el tiempo m
 
 ---
 
-# 🌊 Capítulo 3. Señal Exponencial Compleja y Series de Fourier
+# 🎼 Capítulo 3. Señal Exponencial Compleja y Series de Fourier
 
 📒 **Notebook:**  
 [Capitulo3.ipynb](Capitulo3.ipynb)
@@ -95,7 +95,7 @@ Estudiar la representación de señales periódicas mediante exponenciales compl
 
 ---
 
-# 📶 Capítulo 4. Transformada de Fourier de Señales Periódicas y Aperiódicas
+# 📡 Capítulo 4. Transformada de Fourier de Señales Periódicas y Aperiódicas
 
 📒 **Notebook:**  
 [Capitulo4.ipynb](Capitulo4.ipynb)
