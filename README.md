@@ -26,8 +26,8 @@ El objetivo del repositorio es facilitar un aprendizaje activo, donde el lector 
 |:---:|------|-------------|:----------:|
 | **1** | 📈 **Fundamentos de Señales Análogas y Señales Discretas** | Introducción a los conceptos fundamentales de las señales continuas y discretas, operaciones básicas, representación gráfica y propiedades esenciales para el análisis de sistemas. | [Abrir](Capitulo1.ipynb) |
 | **2** | ⚙️ **Sistemas LTI (Lineales e Invariantes en el Tiempo)** | Estudio de los sistemas lineales e invariantes en el tiempo, respuesta al impulso, convolución y propiedades fundamentales para el análisis y procesamiento de señales. | [Abrir](Capitulo2.ipynb) |
-| **3** | 🌊 **Señal Exponencial Compleja y Series de Fourier** | Representación de señales mediante exponenciales complejas y Series de Fourier para el análisis de señales periódicas en el dominio de la frecuencia. | [Abrir](Capitulo3.ipynb) |
-| **4** | 📶 **Transformada de Fourier de Señales Periódicas y Aperiódicas** | Desarrollo de la Transformada de Fourier para el análisis espectral de señales periódicas y aperiódicas, con aplicaciones prácticas implementadas en Python. | [Abrir](Capitulo4.ipynb) |
+| **3** | 🎼 **Señal Exponencial Compleja y Series de Fourier** | Representación de señales mediante exponenciales complejas y Series de Fourier para el análisis de señales periódicas en el dominio de la frecuencia. | [Abrir](Capitulo3.ipynb) |
+| **4** | 📡 **Transformada de Fourier de Señales Periódicas y Aperiódicas** | Desarrollo de la Transformada de Fourier para el análisis espectral de señales periódicas y aperiódicas, con aplicaciones prácticas implementadas en Python. | [Abrir](Capitulo4.ipynb) |
 
 ---
 
@@ -108,6 +108,20 @@ Aplicar la Transformada de Fourier para analizar el contenido espectral de seña
 
 - Ejemplo 32. Transformada de Fourier de una suma de señales cosenoidales.
 - Ejemplo 43. Análisis espectral de una señal de voz con ruido externo tipo tono.
+---
+
+# 🎯 Objetivos de aprendizaje
+
+A través de los notebooks el lector aprenderá a:
+
+- 📈 Representar y visualizar señales en tiempo continuo y tiempo discreto.
+- 🔄 Aplicar operaciones básicas sobre señales, como desplazamiento, inversión, compresión y dilatación.
+- ⚙️ Analizar sistemas lineales e invariantes en el tiempo (LTI) mediante la convolución y la respuesta al impulso.
+- 🎼 Comprender la representación armónica de señales mediante la Serie de Fourier.
+- 📡 Analizar el contenido espectral de señales periódicas y aperiódicas mediante la Transformada de Fourier.
+- 💻 Implementar algoritmos de análisis de señales utilizando lenguaje Python.
+- 🔬 Experimentar con ejemplos completamente reproducibles para fortalecer la comprensión de los conceptos teóricos.
+
 ---
 
 ## ⚙️ Requisitos
