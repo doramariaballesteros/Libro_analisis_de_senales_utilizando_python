@@ -1,10 +1,11 @@
 # 📘 Análisis de Señales utilizando Python
 
-> **Repositorio oficial del libro**
->
-> **Análisis de Señales Utilizando Python**  
-> **Dora María Ballesteros**  
-> **Editorial Redipe, 2026**
+> **Repositorio oficial del libro**  
+> Dora María Ballesteros  
+> Primera edición, 2026  
+> ISBN: 978-1-957395-65-4
+
+> 🔗 **[Consultar el libro en Editorial REDIPE](https://editorial.redipe.org/index.php/1/catalog/book/250)**
 
 ---
 
