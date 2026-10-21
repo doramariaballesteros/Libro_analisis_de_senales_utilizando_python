@@ -75,7 +75,7 @@ Analizar el comportamiento de los sistemas lineales e invariantes en el tiempo m
 ### 📂 Material complementario
 
 - 📄 **[Convolución continua](Capitulo2/Convolucion_continua.pdf):** Documento de apoyo para el estudio de la operación de convolución de señales en tiempo continuo.
-- 📄 **[Propiedades de los Sistemas LTI](Capitulo2/Propiedades_de_los_Sistemas_LTI.pdf):** Material complementario para el estudio de las propiedades de los sistemas lineales e invariantes en el tiempo.
+- 📄 **[Propiedades de los Sistemas LTI](Capitulo2/Propiedades_Sistemas_LTI.pdf):** Material complementario para el estudio de las propiedades de los sistemas lineales e invariantes en el tiempo.
 
 Documento de apoyo para el estudio de la operación de convolución de señales en tiempo continuo.
 
