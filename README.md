@@ -79,9 +79,6 @@ Analizar el comportamiento de los sistemas lineales e invariantes en el tiempo m
 
 Documento de apoyo para el estudio de la operación de convolución de señales en tiempo continuo.
 
-**📄 Propiedades de los sistemas LTI**
-
-Documento complementario para el estudio de las propiedades de los sistemas lineales e invariantes en el tiempo.
 
 ---
 
