@@ -7,7 +7,7 @@
 >
 > 🔗 **[Consultar el libro en Editorial REDIPE](https://editorial.redipe.org/index.php/1/catalog/book/250)**
 
-[![Ver explicación en video](portada_video.png)](https://www.youtube.com/watch?v=ID_DEL_VIDEO)
+🎬 [Presentacion](Presentacion_Dora_Ballesteros.mp4)
 
 ---
 
