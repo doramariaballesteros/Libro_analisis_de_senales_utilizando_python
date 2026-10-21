@@ -1,41 +1,40 @@
 # 📘 Análisis de Señales utilizando Python
 
 > **Repositorio oficial del libro**  
-> Dora María Ballesteros  
+> **Dora María Ballesteros**  
 > Primera edición, 2026  
 > ISBN: 978-1-957395-65-4
-
+>
 > 🔗 **[Consultar el libro en Editorial REDIPE](https://editorial.redipe.org/index.php/1/catalog/book/250)**
 
 ---
 
 ## 📖 Sobre este repositorio
 
-Este repositorio contiene el material práctico del libro **Análisis de Señales utilizando Python** (Editorial Redipe, 2026).
+Este repositorio contiene los **recursos educativos complementarios** del libro **Análisis de Señales utilizando Python** (Editorial REDIPE, 2026).
 
-El libro integra los fundamentos teóricos del análisis de señales con ejemplos y casos de estudio completamente reproducibles desarrollados en **Python** mediante **Jupyter Notebooks**, permitiendo al lector comprender, visualizar y experimentar con las principales técnicas de análisis en los dominios del tiempo y de la frecuencia.
+El libro integra los fundamentos teóricos del análisis de señales con ejemplos y casos de estudio desarrollados en **Python**, utilizando **Jupyter Notebooks** para facilitar la comprensión, visualización y experimentación con señales en los dominios del tiempo y de la frecuencia.
 
-Los notebooks acompañan cada uno de los capítulos prácticos del libro e incluyen el desarrollo paso a paso de los algoritmos, la visualización de resultados y el análisis e interpretación de señales reales y sintéticas.
+Además de los notebooks, el repositorio incluye **documentos explicativos, material gráfico y ejemplos desarrollados paso a paso**, que permiten profundizar en los conceptos y procedimientos matemáticos estudiados en el libro.
 
-El objetivo del repositorio es facilitar un aprendizaje activo, donde el lector pueda ejecutar, modificar y extender cada uno de los ejemplos presentados en el libro, fortaleciendo sus competencias en procesamiento y análisis de señales utilizando Python.
+Los recursos están organizados por capítulos y tienen como propósito facilitar un aprendizaje activo, en el que el lector pueda consultar las explicaciones, ejecutar los códigos, modificar los parámetros y analizar los resultados obtenidos.
 
 ---
 
-# 📚 Contenido del libro
+## 📚 Organización del repositorio
 
-| Cap. | Tema | Descripción | 📒 Notebook |
-|:---:|------|-------------|:----------:|
-| **1** | 📈 **Fundamentos de Señales Análogas y Señales Discretas** | Introducción a los conceptos fundamentales de las señales continuas y discretas, operaciones básicas, representación gráfica y propiedades esenciales para el análisis de sistemas. | [Abrir](Capitulo1.ipynb) |
-| **2** | ⚙️ **Sistemas LTI (Lineales e Invariantes en el Tiempo)** | Estudio de los sistemas lineales e invariantes en el tiempo, respuesta al impulso, convolución y propiedades fundamentales para el análisis y procesamiento de señales. | [Abrir](Capitulo2.ipynb) |
-| **3** | 🎼 **Señal Exponencial Compleja y Series de Fourier** | Representación de señales mediante exponenciales complejas y Series de Fourier para el análisis de señales periódicas en el dominio de la frecuencia. | [Abrir](Capitulo3.ipynb) |
-| **4** | 📡 **Transformada de Fourier de Señales Periódicas y Aperiódicas** | Desarrollo de la Transformada de Fourier para el análisis espectral de señales periódicas y aperiódicas, con aplicaciones prácticas implementadas en Python. | [Abrir](Capitulo4.ipynb) |
+| Cap. | Tema | Recursos disponibles |
+|:---:|---|---|
+| **1** | 📈 **Fundamentos de Señales Análogas y Señales Discretas** | [📒 Notebook](Capitulo1/Python_Capitulo1.ipynb) |
+| **2** | ⚙️ **Sistemas LTI (Lineales e Invariantes en el Tiempo)** | [📒 Notebook](Capitulo2/Python_Capitulo2.ipynb) · [📄 Convolución continua](Capitulo2/Convolucion_continua.pdf) |
+| **3** | 🎼 **Señal Exponencial Compleja y Series de Fourier** | [📒 Notebook](Capitulo3/Python_Capitulo3.ipynb) |
+| **4** | 📡 **Transformada de Fourier de Señales Periódicas y Aperiódicas** | [📒 Notebook](Capitulo4/Python_Capitulo4.ipynb) · [📄 Transformada de Fourier de señales periódicas](Capitulo4/TF_periodicas.md) |
 
 ---
 
 # 📈 Capítulo 1. Fundamentos de Señales Análogas y Señales Discretas
 
-📒 **Notebook:**  
-[Capitulo1.ipynb](Capitulo1.ipynb)
+📒 **Notebook:** [Python_Capitulo1.ipynb](Capitulo1/Python_Capitulo1.ipynb)
 
 ### 🎯 Objetivo
 
@@ -61,8 +60,7 @@ Comprender los conceptos fundamentales de las señales en tiempo continuo y tiem
 
 # 🔄 Capítulo 2. Sistemas LTI (Lineales e Invariantes en el Tiempo)
 
-📒 **Notebook:**  
-[Capitulo2.ipynb](Capitulo2.ipynb)
+📒 **Notebook:** [Python_Capitulo2.ipynb](Capitulo2/Python_Capitulo2.ipynb)
 
 ### 🎯 Objetivo
 
@@ -74,12 +72,22 @@ Analizar el comportamiento de los sistemas lineales e invariantes en el tiempo m
 - Ejemplo 18. Representación de una señal discreta a partir de impulsos desplazados.
 - Ejemplo 19. Convolución de señales discretas mediante la propiedad distributiva.
 
+### 📂 Material complementario
+
+- 📄 **[Convolución continua](Capitulo2/Convolucion_continua.pdf):** Documento de apoyo para el estudio de la operación de convolución de señales en tiempo continuo.
+- 📄 **[Propiedades de los sistemas LTI](Capitulo2/Propiedades_de_los_Sistemas_LTI.pdf):** Material complementario para el estudio de las propiedades de los sistemas lineales e invariantes en el tiempo.
+
+Documento de apoyo para el estudio de la operación de convolución de señales en tiempo continuo.
+
+**📄 Propiedades de los sistemas LTI**
+
+Documento complementario para el estudio de las propiedades de los sistemas lineales e invariantes en el tiempo.
+
 ---
 
 # 🎼 Capítulo 3. Señal Exponencial Compleja y Series de Fourier
 
-📒 **Notebook:**  
-[Capitulo3.ipynb](Capitulo3.ipynb)
+📒 **Notebook:** [Python_Capitulo3.ipynb](Capitulo3/Python_Capitulo3.ipynb)
 
 ### 🎯 Objetivo
 
@@ -98,8 +106,7 @@ Estudiar la representación de señales periódicas mediante exponenciales compl
 
 # 📡 Capítulo 4. Transformada de Fourier de Señales Periódicas y Aperiódicas
 
-📒 **Notebook:**  
-[Capitulo4.ipynb](Capitulo4.ipynb)
+📒 **Notebook:** [Python_Capitulo4.ipynb](Capitulo4/Python_Capitulo4.ipynb)
 
 ### 🎯 Objetivo
 
@@ -109,25 +116,45 @@ Aplicar la Transformada de Fourier para analizar el contenido espectral de seña
 
 - Ejemplo 32. Transformada de Fourier de una suma de señales cosenoidales.
 - Ejemplo 43. Análisis espectral de una señal de voz con ruido externo tipo tono.
+
+### 📂 Material complementario
+
+**📄 [Transformada de Fourier de señales periódicas](Capitulo4/TF_periodicas.md)**
+
+Explicación gráfica y matemática del procedimiento para obtener la Transformada de Fourier de una señal periódica a partir de los coeficientes de su Serie de Fourier.
+
+El material desarrolla:
+
+1. La relación entre la Serie de Fourier y la Transformada de Fourier de señales periódicas.
+2. El cálculo de la frecuencia fundamental y la identificación de los armónicos.
+3. La obtención de los coeficientes mediante las propiedades de multiplicación y linealidad de la Serie de Fourier.
+4. La construcción de los espectros en frecuencia (Hz) y frecuencia angular (rad/s).
+
+**🖼️ Recursos gráficos**
+
+- [Transformada de Fourier de señales periódicas](Capitulo4/TF_señales_periodicas.png)
+- [Coeficientes de la Serie de Fourier mediante propiedades](Capitulo4/Ejemplo_SF.png)
+- [Espectro de una señal periódica a partir de sus coeficientes](Capitulo4/Ejemplo_TF_periodica.png)
+
 ---
 
 # 🎯 Objetivos de aprendizaje
 
-A través de los notebooks el lector aprenderá a:
+A través de los recursos de este repositorio, el lector podrá:
 
 - 📈 Representar y visualizar señales en tiempo continuo y tiempo discreto.
-- 🔄 Aplicar operaciones básicas sobre señales, como desplazamiento, inversión, compresión y dilatación.
-- ⚙️ Analizar sistemas lineales e invariantes en el tiempo (LTI) mediante la convolución y la respuesta al impulso.
+- 🔄 Aplicar operaciones sobre señales, como desplazamiento, inversión, compresión y dilatación.
+- ⚙️ Analizar sistemas lineales e invariantes en el tiempo mediante la convolución y la respuesta al impulso.
 - 🎼 Comprender la representación armónica de señales mediante la Serie de Fourier.
-- 📡 Analizar el contenido espectral de señales periódicas y aperiódicas mediante la Transformada de Fourier.
-- 💻 Implementar algoritmos de análisis de señales utilizando lenguaje Python.
-- 🔬 Experimentar con ejemplos completamente reproducibles para fortalecer la comprensión de los conceptos teóricos.
+- 📡 Relacionar los coeficientes de la Serie de Fourier con el espectro de una señal periódica.
+- 💻 Implementar algoritmos de análisis de señales utilizando Python.
+- 🔬 Experimentar con ejemplos reproducibles y fortalecer la interpretación de los resultados.
 
 ---
 
 # 💻 Requisitos
 
-Los notebooks fueron desarrollados en **Python** utilizando bibliotecas ampliamente empleadas en el análisis y procesamiento digital de señales, entre ellas:
+Los notebooks fueron desarrollados en **Python**, utilizando bibliotecas empleadas en análisis y procesamiento de señales, entre ellas:
 
 - NumPy
 - SciPy
@@ -140,7 +167,9 @@ Los notebooks pueden ejecutarse en:
 
 - Jupyter Notebook
 - JupyterLab
-- Google Colab (100% compatible)
+- Google Colab
+
+Los documentos Markdown, PDF y las imágenes pueden consultarse directamente desde GitHub, sin necesidad de ejecutar código.
 
 ---
 
@@ -148,20 +177,24 @@ Los notebooks pueden ejecutarse en:
 
 **Ballesteros, D. M. (2026).**  
 *Análisis de Señales utilizando Python.*  
-Editorial Redipe.  
+Editorial REDIPE.  
 ISBN: **978-1-957395-65-4**
+
+🔗 [Consultar publicación](https://editorial.redipe.org/index.php/1/catalog/book/250)
 
 ---
 
 # 👩‍🏫 Sobre la autora
 
-**Dora María Ballesteros** es profesora e investigadora de la **Universidad Militar Nueva Granada (Colombia)**. Su trabajo se centra en Ciencia de Datos, Inteligencia Artificial, Procesamiento Digital de Señales y Aprendizaje Profundo. Es autora de diversos libros y artículos científicos en Ciencia de Datos, Inteligencia Artificial y Procesamiento Digital de Señales, promoviendo el desarrollo de recursos educativos y herramientas de software de código abierto para la comunidad académica.
+**Dora María Ballesteros** es profesora e investigadora de la **Universidad Militar Nueva Granada (Colombia)**. Su trabajo se centra en Ciencia de Datos, Inteligencia Artificial, Procesamiento Digital de Señales y Aprendizaje Profundo.
+
+Es autora de diversos libros y artículos científicos en estas áreas y promueve el desarrollo de recursos educativos y herramientas de software de código abierto para la comunidad académica.
 
 ---
 
 # 📄 Licencia
 
-Este repositorio se distribuye con fines académicos y educativos. Consulte el archivo **LICENSE** para conocer los términos de uso.
+Este repositorio se distribuye con fines académicos y educativos. Consulte el archivo **LICENSE**, si está disponible, para conocer los términos de uso.
 
 ---
 
@@ -172,5 +205,4 @@ Profesora e Investigadora
 Universidad Militar Nueva Granada
 
 📧 **dora.ballesteros@unimilitar.edu.co**
-
 📍 Bogotá, Colombia
