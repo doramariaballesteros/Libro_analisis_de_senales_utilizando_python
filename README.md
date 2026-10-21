@@ -7,7 +7,7 @@
 >
 > 🔗 **[Consultar el libro en Editorial REDIPE](https://editorial.redipe.org/index.php/1/catalog/book/250)**
 
-🎬 [Presentacion](Presentacion_Dora_Ballesteros.mp4)
+🎬 [Presentacion](Presentacion_Dora_Ballesteros_comprimido.mp4)
 
 ---
 
