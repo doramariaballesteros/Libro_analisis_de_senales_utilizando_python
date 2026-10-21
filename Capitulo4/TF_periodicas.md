@@ -55,7 +55,7 @@ $$
 Calculamos la frecuencia angular fundamental utilizando el máximo común divisor (MCD):
 
 $$
-\omega_0=\frac{\pi}{4}\operatorname{MCD}(2,3,6)
+\omega_0=\frac{\pi}{4}\mathrm{MCD}(2,3,6)
 =\boxed{\frac{\pi}{4}\text{ rad/s}}
 $$
 
