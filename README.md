@@ -29,6 +29,7 @@ Los recursos están organizados por capítulos y tienen como propósito facilita
 
 ---
 
+
 ## 📚 Organización del repositorio
 
 | Cap. | Tema | Recursos disponibles |
@@ -36,7 +37,7 @@ Los recursos están organizados por capítulos y tienen como propósito facilita
 | **1** | 📈 **Fundamentos de Señales Análogas y Señales Discretas** | [📒 Notebook](Capitulo1/Python_Capitulo1.ipynb) |
 | **2** | ⚙️ **Sistemas LTI (Lineales e Invariantes en el Tiempo)** | [📒 Notebook](Capitulo2/Python_Capitulo2.ipynb) · [📄 Convolución continua](Capitulo2/Convolucion_continua.pdf) · [Propiedades de los Sistemas LTI](Capitulo2/Propiedades_Sistemas_LTI.pdf) |
 | **3** | 🎼 **Señal Exponencial Compleja y Series de Fourier** | [📒 Notebook](Capitulo3/Python_Capitulo3.ipynb) |
-| **4** | 📡 **Transformada de Fourier de Señales Periódicas y Aperiódicas** | [📒 Notebook](Capitulo4/Python_Capitulo4.ipynb) · [📄 Transformada de Fourier de señales periódicas](Capitulo4/TF_periodicas.md) |
+| **4** | 📡 **Transformada de Fourier de Señales Periódicas y Aperiódicas** | [📒 Notebook principal](Capitulo4/Python_Capitulo4.ipynb) · [📒 Suma de cosenoidales](Capitulo4/Python_TF_suma_cosenoidales.ipynb) · [📄 Transformada de Fourier de señales periódicas](Capitulo4/Texto_TF_periodicas.md) |
 
 ---
 
