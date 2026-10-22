@@ -24,7 +24,7 @@ Donde:
 - $k$: índice armónico.
 - $\delta(\cdot)$: impulso de Dirac.
 
-![Transformada de Fourier de señales periódicas](TF_señales_periodicas.png)
+![Transformada de Fourier de señales periódicas](Imagen_TF_señales_periodicas.png)
 
 ---
 
@@ -141,7 +141,7 @@ $$
 
 La siguiente figura presenta gráficamente el cálculo completo de los coeficientes mediante las propiedades de multiplicación y linealidad.
 
-![Coeficientes de la Serie de Fourier mediante propiedades](Ejemplo_SF.png)
+![Coeficientes de la Serie de Fourier mediante propiedades](Imagen_Ejemplo_SF.png)
 
 ---
 
@@ -187,7 +187,7 @@ Como $\omega_0=\pi/4$ rad/s:
 
 La siguiente figura muestra la relación entre los coeficientes de la Serie de Fourier y los espectros obtenidos en Hz y rad/s.
 
-![Espectro de una señal periódica a partir de los coeficientes de la Serie de Fourier](Ejemplo_TF_periodica.png)
+![Espectro de una señal periódica a partir de los coeficientes de la Serie de Fourier](Imagen_Ejemplo_TF_periodica.png)
 
 ---
 
