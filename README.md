@@ -109,22 +109,32 @@ Estudiar la representación de señales periódicas mediante exponenciales compl
 
 ---
 
-# 📡 Capítulo 4. Transformada de Fourier de Señales Periódicas y Aperiódicas
 
-📒 **Notebook:** [Python_Capitulo4.ipynb](Capitulo4/Python_Capitulo4.ipynb)
+# 📡 Capítulo 4. Transformada de Fourier de Señales Periódicas y Aperiódicas
 
 ### 🎯 Objetivo
 
 Aplicar la Transformada de Fourier para analizar el contenido espectral de señales periódicas y aperiódicas, utilizando herramientas computacionales desarrolladas en Python.
 
-### 📑 Contenido del notebook
+### 📑 Contenido de los notebooks
+
+📒 **[Python_Capitulo4.ipynb](Capitulo4/Python_Capitulo4.ipynb)**
 
 - Ejemplo 32. Transformada de Fourier de una suma de señales cosenoidales.
 - Ejemplo 43. Análisis espectral de una señal de voz con ruido externo tipo tono.
 
+📒 **[Python_TF_suma_cosenoidales.ipynb](Capitulo4/Python_TF_suma_cosenoidales.ipynb)**
+
+Representación de una señal periódica compuesta por tres señales cosenoidales:
+
+1. Señal en el dominio del tiempo.
+2. Coeficientes de la Serie de Fourier.
+3. Espectro $X(jf)$ en frecuencia (Hz).
+4. Espectro $X(j\omega)$ en frecuencia angular (rad/s).
+
 ### 📂 Material complementario
 
-**📄 [Transformada de Fourier de señales periódicas](Capitulo4/TF_periodicas.md)**
+**📄 [Transformada de Fourier de señales periódicas](Capitulo4/Texto_TF_periodicas.md)**
 
 Explicación gráfica y matemática del procedimiento para obtener la Transformada de Fourier de una señal periódica a partir de los coeficientes de su Serie de Fourier.
 
@@ -137,9 +147,9 @@ El material desarrolla:
 
 **🖼️ Recursos gráficos**
 
-- [Transformada de Fourier de señales periódicas](Capitulo4/TF_señales_periodicas.png)
-- [Coeficientes de la Serie de Fourier mediante propiedades](Capitulo4/Ejemplo_SF.png)
-- [Espectro de una señal periódica a partir de sus coeficientes](Capitulo4/Ejemplo_TF_periodica.png)
+- [Transformada de Fourier de señales periódicas](Capitulo4/Imagen_TF_señales_periodicas.png)
+- [Coeficientes de la Serie de Fourier mediante propiedades](Capitulo4/Imagen_Ejemplo_SF.png)
+- [Espectro de una señal periódica a partir de sus coeficientes](Capitulo4/Imagen_Ejemplo_TF_periodica.png)
 
 ---
 
