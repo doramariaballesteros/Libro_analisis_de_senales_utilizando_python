@@ -163,3 +163,49 @@ La entrega se formaliza mediante el enlace al repositorio con todos los archivos
 **🗣️ Sustentación:** cada grupo deberá sustentar presencialmente, **en la oficina de la profesora**, el código desarrollado y sus resultados.
 
 **📅 Fecha máxima de entrega: 19 de noviembre de 2026.**
+
+
+## 🎯 Rúbrica de evaluación — RA 6.1
+
+**Resultado de Aprendizaje RA 6.1**
+
+Diseña y ejecuta experimentos de manipulación temporal y análisis espectral de señales utilizando el lenguaje de programación Python, interpretando los resultados obtenidos para analizar el comportamiento de las señales y la relación entre los dominios del tiempo y la frecuencia.
+
+### 📊 Acciones observables y niveles de desempeño
+
+| Acción observable | Nivel 1 — No cumple (0.0) | Nivel 2 — Parcialmente correcto (2.0–3.4) | Nivel 3 — Completo y correcto (3.5–5.0) | Ponderación |
+|---|---|---|---|---|
+| **1. Diseña y ejecuta el código de Imitation** | No diseña ni ejecuta el código de Imitation. | Diseña y ejecuta un código incompleto o parcialmente correcto para la permutación espectral y generación de los audios codificados. | Diseña y ejecuta correctamente el código de Imitation, generando los cinco audios codificados y sus respectivas claves de permutación. | **40 %** |
+| **2. Diseña y ejecuta el código de cálculo de métricas de similitud** | No diseña ni ejecuta el código para calcular las métricas de similitud. | Diseña y ejecuta un código incompleto o parcialmente correcto para calcular las métricas SNR y correlación de Pearson. | Diseña y ejecuta correctamente el código para calcular ambas métricas entre los cinco secretos originales y sus respectivas reconstrucciones. | **30 %** |
+| **3. Interpreta los resultados obtenidos** | No interpreta los resultados obtenidos. | Interpreta de manera incompleta o parcialmente correcta las métricas obtenidas y las diferencias de calidad entre los audios recuperados. | Interpreta correctamente los resultados, identifica el audio con mejor calidad de recuperación y analiza las similitudes o diferencias entre los cinco audios. | **30 %** |
+
+### 🧮 Cálculo de la calificación
+
+La calificación del proyecto se calcula mediante:
+
+$$
+N = 0.4N_1 + 0.3N_2 + 0.3N_3
+$$
+
+Donde:
+
+- **N₁:** calificación del código de Imitation.
+- **N₂:** calificación del código de cálculo de métricas.
+- **N₃:** calificación de la interpretación de resultados.
+
+### ⏳ Penalización por tiempo de entrega
+
+A partir de la primera entrega válida, se descontarán **0.2 puntos por cada día transcurrido** hasta la entrega de cada grupo.
+
+$$
+N_{final} = \max(0,\ N - 0.2d)
+$$
+
+Donde:
+
+- **N:** calificación obtenida según la rúbrica.
+- **d:** número de días transcurridos desde la primera entrega válida.
+- **N_final:** calificación definitiva después de aplicar la penalización.
+
+📅 **Fecha máxima de entrega: 19 de noviembre de 2026.**
+
