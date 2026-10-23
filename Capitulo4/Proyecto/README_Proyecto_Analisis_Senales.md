@@ -73,11 +73,17 @@ La siguiente figura muestra cómo la reorganización modifica la distribución e
 
 **🔎 Analiza:** explica por qué el espectro reorganizado presenta sus picos en posiciones semejantes a las del Target, aunque conserva las magnitudes de los coeficientes originales del Secret.
 
+
 ### 🔊 4. Generación del audio codificado
 
-Aplicar **`irfft`** al espectro complejo reorganizado para obtener la señal **Encoded**. Representarla en el dominio temporal y escucharla. El resultado puede sonar como ruido o como un mensaje ininteligible.
+Aplica **`irfft`** al espectro complejo reorganizado para obtener la señal **Encoded**. Represéntala en el dominio temporal y escúchala. El resultado puede sonar como ruido o como un mensaje ininteligible.
 
-Guardar el archivo `encoded.wav` y la clave correspondiente `FFT_key.csv`. La convención de la clave debe ser compatible con el código **Reverse** suministrado.
+La siguiente figura muestra un ejemplo de la señal codificada. Observa cómo su estructura temporal es diferente de las señales originales y presenta una actividad distribuida a lo largo de prácticamente toda su duración.
+
+![Señal codificada en el dominio temporal](Grafica_encoded.png)
+
+💾 Guarda el audio codificado como `encoded.wav` y su clave de permutación como `FFT_key.csv`. Asegúrate de que la convención utilizada para construir la clave sea compatible con el código **Reverse** proporcionado.
+
 
 ### 🎵 5. Repetición con cinco secretos
 
