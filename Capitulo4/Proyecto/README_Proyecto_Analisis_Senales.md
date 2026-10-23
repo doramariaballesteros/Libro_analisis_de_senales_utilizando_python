@@ -230,7 +230,7 @@ Donde:
 A partir de la primera entrega válida, se descontarán **0.2 puntos por cada día transcurrido** hasta la entrega de cada grupo.
 
 $$
-N_{final} = \max(0,\ N - 0.2d)
+N_{final} = \max(0,\ N - 0.1d)
 $$
 
 Donde:
