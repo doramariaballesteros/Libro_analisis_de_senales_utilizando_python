@@ -25,43 +25,50 @@ Calcular los coeficientes espectrales de ambas señales mediante **`rfft`** y re
 
 **🔎 Analiza:** identifica las regiones de mayor magnitud y compara la ubicación de los picos principales. Recuerda que cada coeficiente de `rfft` contiene información de magnitud y fase.
 
+
 ### 🔀 3. Reorganización de coeficientes complejos
 
-Diseñar una permutación que reubique los coeficientes complejos del **Secret** según el orden de magnitudes de los coeficientes del **Target**. Para ello:
+Diseña una permutación que reorganice los coeficientes espectrales complejos del **Secret**, tomando como referencia el orden de magnitudes de los coeficientes del **Target**.
 
-1. Identifica las posiciones de los coeficientes de ambas señales ordenados por magnitud.
-2. Establece una correspondencia entre posiciones de igual rango.
-3. Reorganiza **los coeficientes completos** del secreto, conservando juntas sus partes real e imaginaria.
-4. Mantén sin permutar el coeficiente de **DC** y, si el número de muestras es par, el coeficiente de **Nyquist**.
-5. Construye una **clave de permutación** que permita invertir el procedimiento.
+Para ello:
 
-![Comparación del espectro original y el espectro reorganizado](Grafica_espectro_ordenado.png)
+1. Identifica las posiciones de los coeficientes de ambas señales, ordenadas de menor a mayor magnitud.
+2. Establece una correspondencia entre las posiciones que ocupan el mismo rango en ambos ordenamientos.
+3. Construye una **clave de permutación** que permita reorganizar los coeficientes y posteriormente recuperar sus posiciones originales.
+4. Reorganiza los **coeficientes complejos completos** del secreto, conservando conjuntamente sus partes real e imaginaria.
 
+#### 🔑 Permutación espectral y creación de la clave
 
-### 🔀 Permutación espectral y creación de la clave
+El procedimiento se representa mediante el siguiente pseudocódigo:
 
 ```python
-# 1. Ordenar las posiciones según la magnitud
-I1 = argsort(abs(S))
-I2 = argsort(abs(T))
+I1 = argsort(abs(S[P]))
+I2 = argsort(abs(T[P]))
 
-# 2. Crear la clave de permutación
-K[I2] = I1
+K = identity_indices
+K[P[I2]] = P[I1]
 
-# 3. Reorganizar los coeficientes complejos
 E = S[K]
 ```
 
 **Donde:**
 
-- **`S`**: coeficientes espectrales complejos del secreto.
-- **`T`**: coeficientes espectrales complejos del target.
-- **`I1`**: posiciones de los coeficientes del secreto, ordenadas de menor a mayor magnitud.
-- **`I2`**: posiciones de los coeficientes del target, ordenadas de menor a mayor magnitud.
-- **`K`**: clave que relaciona las posiciones originales del secreto con las posiciones del espectro codificado.
-- **`E`**: espectro codificado, obtenido al reorganizar los coeficientes complejos del secreto.
+- **`S`**: coeficientes espectrales complejos del Secret.
+- **`T`**: coeficientes espectrales complejos del Target.
+- **`P`**: posiciones de los coeficientes que pueden permutarse.
+- **`I1`**: índices que ordenan las magnitudes del Secret dentro de `P`.
+- **`I2`**: índices que ordenan las magnitudes del Target dentro de `P`.
+- **`K`**: clave de permutación que relaciona las posiciones originales del secreto con las posiciones del espectro reorganizado.
+- **`E`**: espectro obtenido después de reorganizar los coeficientes complejos del Secret.
+- **`identity_indices`**: vector de índices consecutivos que inicialmente mantiene cada coeficiente en su posición original.
 
-> 📌 **Importante:** el ordenamiento y la permutación se aplican únicamente a los coeficientes que pueden intercambiarse. Los coeficientes DC y Nyquist (cuando existe) deben permanecer fijos. La permutación conserva tanto la parte real como la imaginaria de cada coeficiente.
+> 📌 **Importante:** el coeficiente DC y, cuando el número de muestras es par, el coeficiente de Nyquist deben permanecer fijos. La permutación se aplica únicamente a las posiciones restantes y conserva tanto la parte real como la imaginaria de cada coeficiente.
+
+#### 📊 Resultado esperado
+
+La siguiente figura muestra cómo la reorganización modifica la distribución espectral del Secret, de manera que sus picos principales se ubican en posiciones similares a las del Target, sin modificar los valores de los coeficientes originales.
+
+![Comparación del espectro original y el espectro reorganizado](Grafica_espectro_ordenado.png)
 
 
 **🔎 Analiza:** explica por qué el espectro reorganizado presenta sus picos en posiciones semejantes a las del Target, aunque conserva las magnitudes de los coeficientes originales del Secret.
