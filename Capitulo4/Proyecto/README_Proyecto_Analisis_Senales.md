@@ -97,19 +97,36 @@ Verificar mediante escucha que los **cinco mensajes secretos recuperados** sean 
 
 ## 📏 Parte III. Evaluación de la calidad
 
-Comparar cada audio secreto original, \(x[n]\), con su reconstrucción, \(\hat{x}[n]\), mediante **dos métricas**:
+Compara cada audio secreto original, $x[n]$, con su reconstrucción, $\hat{x}[n]$, mediante **dos métricas**:
 
-**Relación señal a ruido de reconstrucción (SNR):**
+**1. Relación señal a ruido de reconstrucción (SNR):**
 
-\[
-\mathrm{SNR}=10\log_{10}\left(\frac{\sum_n x[n]^2}{\sum_n (x[n]-\hat{x}[n])^2}\right)
-\]
+$$
+\mathrm{SNR}=10\log_{10}\left(
+\frac{\sum_{n=0}^{N-1}x[n]^2}
+{\sum_{n=0}^{N-1}(x[n]-\hat{x}[n])^2}
+\right)
+$$
 
-**Coeficiente de correlación de Pearson:**
+**2. Coeficiente de correlación de Pearson:**
 
-\[
-\rho=\frac{\operatorname{cov}(x,\hat{x})}{\sigma_x\sigma_{\hat{x}}}
-\]
+$$
+\rho=\frac{\operatorname{cov}(x,\hat{x})}
+{\sigma_x\sigma_{\hat{x}}}
+$$
+
+**Donde:**
+
+- $x[n]$: señal secreta original.
+- $\hat{x}[n]$: señal secreta recuperada.
+- $N$: número de muestras.
+- $\sigma_x$: desviación estándar de la señal original.
+- $\sigma_{\hat{x}}$: desviación estándar de la señal recuperada.
+
+📌 **Interpretación:**
+- **SNR:** cuanto mayor sea su valor en dB, menor será el error de reconstrucción.
+- **Correlación:** cuanto más cercano a 1 sea su valor, mayor será la similitud entre las formas de onda.
+
 
 Calcular ambas métricas para los cinco mensajes y presentar los resultados en una tabla:
 
