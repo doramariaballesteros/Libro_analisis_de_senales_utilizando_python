@@ -192,7 +192,7 @@ Se reconoce que algunas instrucciones pueden ser similares debido a la naturalez
 ### 📅 4. Fecha de entrega
 
 - **Fecha máxima:** 19 de noviembre de 2026.
-- **Penalización:** a partir de la primera entrega válida, se descontarán **0.2 puntos por cada día transcurrido** hasta la entrega de cada grupo.
+- **Penalización:** a partir de la primera entrega válida, se descontarán **10 décimas (escala 0-500) por cada día transcurrido** hasta la entrega de cada grupo.
 
 📌 La entrega se considerará realizada cuando el grupo proporcione el enlace al repositorio de GitHub con todos los archivos y resultados solicitados.
 
