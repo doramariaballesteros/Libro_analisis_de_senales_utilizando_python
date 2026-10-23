@@ -154,16 +154,7 @@ La entrega se formaliza mediante el enlace al repositorio con todos los archivos
 
 ## 📋 Evaluación y condiciones
 
-**🏅 Calidad:** la calificación dependerá del funcionamiento de los procedimientos, la calidad de los cinco mensajes recuperados y el análisis de resultados.
-
-**⏱️ Oportunidad:** la **primera entrega válida** establecerá la fecha de referencia. A partir de ella, se descontarán **0,2 puntos de la nota por cada día transcurrido** hasta la entrega de cada grupo.
-
 **🛡️ Originalidad:** se reconocerán similitudes inevitables por tratarse de un mismo problema. No obstante, coincidencias significativas en nombres de variables no indicados en la guía, organización del código, comentarios y decisiones particulares de implementación podrán ser indicios de copia. Si se confirma copia entre entregas, se descartará el código presentado posteriormente.
-
-**🗣️ Sustentación:** cada grupo deberá sustentar presencialmente, **en la oficina de la profesora**, el código desarrollado y sus resultados.
-
-**📅 Fecha máxima de entrega: 19 de noviembre de 2026.**
-
 
 ## 🎯 Rúbrica de evaluación — RA 6.1
 
@@ -173,18 +164,18 @@ Diseña y ejecuta experimentos de manipulación temporal y análisis espectral d
 
 ### 📊 Acciones observables y niveles de desempeño
 
-| Acción observable | Nivel 1 — No cumple (0.0) | Nivel 2 — Parcialmente correcto (2.0–3.4) | Nivel 3 — Completo y correcto (3.5–5.0) | Ponderación |
+| Acción observable | Nivel 1 — No cumple (0.0) | Nivel 2 — Parcialmente correcto (2.0–4.0) | Nivel 3 — Completo y correcto (5.0) | Ponderación |
 |---|---|---|---|---|
-| **1. Diseña y ejecuta el código de Imitation** | No diseña ni ejecuta el código de Imitation. | Diseña y ejecuta un código incompleto o parcialmente correcto para la permutación espectral y generación de los audios codificados. | Diseña y ejecuta correctamente el código de Imitation, generando los cinco audios codificados y sus respectivas claves de permutación. | **40 %** |
+| **1. Diseña y ejecuta el código de Imitation** | No diseña ni ejecuta el código de Imitation. | Diseña y ejecuta un código incompleto o parcialmente correcto para la permutación espectral y generación de los audios codificados. | Diseña y ejecuta correctamente el código de Imitation. Los audios recuperados con reverse son muy similares a los secretos | **50 %** |
 | **2. Diseña y ejecuta el código de cálculo de métricas de similitud** | No diseña ni ejecuta el código para calcular las métricas de similitud. | Diseña y ejecuta un código incompleto o parcialmente correcto para calcular las métricas SNR y correlación de Pearson. | Diseña y ejecuta correctamente el código para calcular ambas métricas entre los cinco secretos originales y sus respectivas reconstrucciones. | **30 %** |
-| **3. Interpreta los resultados obtenidos** | No interpreta los resultados obtenidos. | Interpreta de manera incompleta o parcialmente correcta las métricas obtenidas y las diferencias de calidad entre los audios recuperados. | Interpreta correctamente los resultados, identifica el audio con mejor calidad de recuperación y analiza las similitudes o diferencias entre los cinco audios. | **30 %** |
+| **3. Interpreta los resultados obtenidos** | No interpreta los resultados obtenidos. | Interpreta de manera incompleta o parcialmente correcta las métricas obtenidas y las diferencias de calidad entre los audios recuperados. | Interpreta correctamente los resultados, identifica el audio con mejor calidad de recuperación y analiza las similitudes o diferencias entre los cinco audios. | **20 %** |
 
 ### 🧮 Cálculo de la calificación
 
 La calificación del proyecto se calcula mediante:
 
 $$
-N = 0.4N_1 + 0.3N_2 + 0.3N_3
+N = 0.5N_1 + 0.3N_2 + 0.2N_3
 $$
 
 Donde:
