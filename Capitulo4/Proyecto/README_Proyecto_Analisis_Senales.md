@@ -37,6 +37,33 @@ Diseñar una permutación que reubique los coeficientes complejos del **Secret**
 
 ![Comparación del espectro original y el espectro reorganizado](Grafica_espectro_ordenado.png)
 
+
+### 🔀 Permutación espectral y creación de la clave
+
+```python
+# 1. Ordenar las posiciones según la magnitud
+I1 = argsort(abs(S))
+I2 = argsort(abs(T))
+
+# 2. Crear la clave de permutación
+K[I2] = I1
+
+# 3. Reorganizar los coeficientes complejos
+E = S[K]
+```
+
+**Donde:**
+
+- **`S`**: coeficientes espectrales complejos del secreto.
+- **`T`**: coeficientes espectrales complejos del target.
+- **`I1`**: posiciones de los coeficientes del secreto, ordenadas de menor a mayor magnitud.
+- **`I2`**: posiciones de los coeficientes del target, ordenadas de menor a mayor magnitud.
+- **`K`**: clave que relaciona las posiciones originales del secreto con las posiciones del espectro codificado.
+- **`E`**: espectro codificado, obtenido al reorganizar los coeficientes complejos del secreto.
+
+> 📌 **Importante:** el ordenamiento y la permutación se aplican únicamente a los coeficientes que pueden intercambiarse. Los coeficientes DC y Nyquist (cuando existe) deben permanecer fijos. La permutación conserva tanto la parte real como la imaginaria de cada coeficiente.
+
+
 **🔎 Analiza:** explica por qué el espectro reorganizado presenta sus picos en posiciones semejantes a las del Target, aunque conserva las magnitudes de los coeficientes originales del Secret.
 
 ### 🔊 4. Generación del audio codificado
