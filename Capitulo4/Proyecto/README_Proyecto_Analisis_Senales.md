@@ -154,7 +154,48 @@ La entrega se formaliza mediante el enlace al repositorio con todos los archivos
 
 ## 📋 Evaluación y condiciones
 
-**🛡️ Originalidad:** se reconocerán similitudes inevitables por tratarse de un mismo problema. No obstante, coincidencias significativas en nombres de variables no indicados en la guía, organización del código, comentarios y decisiones particulares de implementación podrán ser indicios de copia. Si se confirma copia entre entregas, se descartará el código presentado posteriormente.
+### 📂 1. Publicación en GitHub
+
+Cada grupo deberá publicar su proyecto en un repositorio de GitHub, utilizando la **cuenta personal de uno de sus integrantes**.
+
+El repositorio deberá contener:
+
+- 🔐 **Imitation:** código desarrollado para la codificación de los cinco mensajes secretos.
+- 🎧 **Audios codificados:** cinco archivos `encoded.wav`, debidamente identificados, y sus respectivas claves de permutación.
+- 🔓 **Reverse:** código proporcionado por la profesora para recuperar los mensajes secretos.
+- 🎙️ **Audios recuperados:** cinco archivos de audio correspondientes a los secretos reconstruidos.
+- 📏 **Métricas de similitud:** código desarrollado para calcular SNR y correlación de Pearson.
+- 📊 **Resultados:** tabla comparativa de las métricas obtenidas y análisis de la calidad de recuperación de los cinco mensajes.
+
+### 👩‍🏫 2. Sustentación presencial
+
+Cada grupo deberá realizar una **sustentación presencial en la oficina de la profesora**.
+
+Durante la sustentación, los integrantes deberán:
+
+1. Explicar el funcionamiento del código desarrollado para **Imitation**.
+2. Describir el procedimiento de permutación espectral y la construcción de la clave.
+3. Demostrar la recuperación de los cinco mensajes secretos mediante **Reverse**.
+4. Explicar el cálculo de las métricas de similitud.
+5. Interpretar los resultados obtenidos y responder las preguntas formuladas por la profesora.
+
+📌 **La sustentación es obligatoria y permitirá verificar que los integrantes comprenden el código y los resultados presentados.**
+
+### ⚠️ 3. Originalidad del código
+
+Se verificará la originalidad de las implementaciones presentadas.
+
+Se reconoce que algunas instrucciones pueden ser similares debido a la naturaleza del problema. Sin embargo, las coincidencias significativas en nombres de variables particulares, organización del código, comentarios y decisiones de implementación podrán considerarse indicios de copia.
+
+**Cuando se determine que existe copia entre dos entregas, se descartará el código presentado posteriormente.**
+
+### 📅 4. Fecha de entrega
+
+- **Fecha máxima:** 19 de noviembre de 2026.
+- **Penalización:** a partir de la primera entrega válida, se descontarán **0.2 puntos por cada día transcurrido** hasta la entrega de cada grupo.
+
+📌 La entrega se considerará realizada cuando el grupo proporcione el enlace al repositorio de GitHub con todos los archivos y resultados solicitados.
+
 
 ## 🎯 Rúbrica de evaluación — RA 6.1
 
