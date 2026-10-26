@@ -44,7 +44,7 @@ Es importante distinguir entre los espectros descritos mediante funciones ordina
 - **Señales periódicas:** su TF está formada por impulsos de Dirac ubicados en las frecuencias armónicas.
 - **Señal constante o nivel DC:** su TF contiene un único impulso de Dirac en frecuencia cero. Aunque no posee período fundamental, también puede entenderse como una señal periódica con cualquier período positivo.
 
-Para las componentes impulsivas, el escalamiento de la delta de Dirac introduce un factor $2\pi$ entre los coeficientes expresados en rad/s y en Hz. Esta diferencia **no** se aplica a la amplitud de las partes espectrales representadas mediante funciones ordinarias.
+Para las componentes de tipo impulso, el escalamiento de la delta de Dirac introduce un factor $2\pi$ entre los coeficientes expresados en rad/s y en Hz. Esta diferencia **no** se aplica a la amplitud de las partes espectrales representadas mediante funciones ordinarias.
 
 ![Comparación de espectros continuos e impulsivos](Espectros_aperiodica_periodica.png)
 
