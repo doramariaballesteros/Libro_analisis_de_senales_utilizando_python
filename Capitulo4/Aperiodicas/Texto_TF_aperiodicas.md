@@ -7,7 +7,7 @@ A diferencia de las señales periódicas, cuyo espectro está formado por impuls
 La TF puede expresarse en función de la frecuencia angular $\omega$ (rad/s) o de la frecuencia $f$ (Hz):
 
 $$
-X(j\omega)=\int_{-\infty}^{\infty}x(t)e^{-j\omega t} \, dt
+X(j\omega)=\int_{-\infty}^{\infty}x(t)e^{-j\omega t}\,dt
 $$
 
 $$
