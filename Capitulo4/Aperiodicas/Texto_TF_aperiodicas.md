@@ -232,7 +232,7 @@ $$
 Aplicando la identidad de Euler:
 
 $$
-e^{j\theta}-e^{-j\theta}=2j\operatorname{sen}(\theta)
+e^{j\theta}-e^{-j\theta}=2j\sin(\theta)
 $$
 
 Obtenemos:
