@@ -7,11 +7,11 @@ A diferencia de las señales periódicas, cuyo espectro está formado por impuls
 La TF puede expresarse en función de la frecuencia angular $\omega$ (rad/s) o de la frecuencia $f$ (Hz):
 
 $$
-X(j\omega)=\int_{-\infty}^{\infty}x(t)e^{-j\omega t}dt\,dt
+X(j\omega)=\int_{-\infty}^{\infty}x(t)e^{-j\omega t}dt
 $$
 
 $$
-X(jf)=\int_{-\infty}^{\infty}x(t)e^{-j2\pi ft} \, dt
+X(jf)=\int_{-\infty}^{\infty}x(t)e^{-j2\pi ft}dt
 $$
 
 La Transformada Inversa de Fourier (ITF) permite recuperar la señal temporal:
@@ -21,7 +21,7 @@ x(t)=\frac{1}{2\pi}\int_{-\infty}^{\infty}X(j\omega)e^{j\omega t}\,d\omega
 $$
 
 $$
-x(t)=\int_{-\infty}^{\infty}X(jf)e^{j2\pi ft}\,df
+x(t)=\int_{-\infty}^{\infty}X(jf)e^{j2\pi ft}df
 $$
 
 Como $\omega=2\pi f$, se cumple:
