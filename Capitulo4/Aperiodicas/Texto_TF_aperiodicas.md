@@ -17,7 +17,7 @@ $$
 La Transformada Inversa de Fourier (ITF) permite recuperar la señal temporal:
 
 $$
-x(t)=\frac{1}{2\pi}\int_{-\infty}^{\infty}X(j\omega)e^{j\omega t}\,d\omega
+x(t)=\frac{1}{2\pi}\int_{-\infty}^{\infty}X(j\omega)e^{j\omega t}d\omega
 $$
 
 $$
