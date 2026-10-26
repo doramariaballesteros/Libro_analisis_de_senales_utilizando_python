@@ -187,6 +187,116 @@ La figura muestra las dos señales temporales y sus espectros expresados tanto e
 
 ---
 
+## 5. Transformada de Fourier de una señal cuadrada aperiódica
+
+Consideremos una señal cuadrada aperiódica, de amplitud unitaria y duración finita. A diferencia de la señal cuadrada periódica, cuyo espectro está formado por infinitos impulsos de Dirac, la señal cuadrada aperiódica tiene un **espectro continuo de forma sinc**.
+
+### Ejemplo 38. TF de la señal cuadrada aperiódica
+
+Sea la señal:
+
+$$
+x(t)=
+\begin{cases}
+1, & |t|<T_1\\
+0, & \text{en otro caso}
+\end{cases}
+$$
+
+Donde $2T_1$ corresponde a la duración total de la señal (tiempo en alto), centrada en $t=0$.
+
+### Cálculo de la Transformada de Fourier
+
+Partimos de la definición:
+
+$$
+X(j\omega)=\int_{-\infty}^{\infty}x(t)e^{-j\omega t}\,dt
+$$
+
+Como la señal solamente es diferente de cero en el intervalo $-T_1<t<T_1$, tenemos:
+
+$$
+X(j\omega)=\int_{-T_1}^{T_1}e^{-j\omega t}\,dt
+$$
+
+Resolviendo la integral:
+
+$$
+X(j\omega)=\left[\frac{e^{-j\omega t}}{-j\omega}\right]_{-T_1}^{T_1}
+$$
+
+$$
+X(j\omega)=\frac{e^{-j\omega T_1}-e^{j\omega T_1}}{-j\omega}
+$$
+
+Aplicando la identidad de Euler:
+
+$$
+e^{j\theta}-e^{-j\theta}=2j\operatorname{sen}(\theta)
+$$
+
+Obtenemos:
+
+$$
+X(j\omega)=\frac{2\operatorname{sen}(\omega T_1)}{\omega}
+$$
+
+Por tanto:
+
+$$
+\boxed{X(j\omega)=2T_1\frac{\operatorname{sen}(\omega T_1)}{\omega T_1}}
+$$
+
+Esta expresión corresponde a una función de tipo sinc.
+
+### Representación temporal y espectral
+
+La siguiente figura presenta la señal cuadrada aperiódica en el dominio temporal y la magnitud de su Transformada de Fourier.
+
+![Señal cuadrada aperiódica y su Transformada de Fourier](TF_cuadrada_aperiodica.png)
+
+### Análisis del espectro
+
+A partir de la expresión matemática y de la representación gráfica, podemos identificar las siguientes características:
+
+1. **Espectro continuo:** a diferencia de la señal cuadrada periódica, su espectro no está formado por impulsos de Dirac, sino por una función continua de tipo sinc.
+
+2. **Máximo en frecuencia cero:** el valor máximo de la magnitud del espectro se obtiene en $\omega=0$. Aplicando el límite:
+
+   $$
+   X(j0)=\lim_{\omega\to0}\frac{2\operatorname{sen}(\omega T_1)}{\omega}=2T_1
+   $$
+
+3. **Ceros del espectro:** ocurren cuando el argumento de la función seno corresponde a múltiplos enteros de $\pi$, diferentes de cero:
+
+   $$
+   \omega=\pm\frac{\pi}{T_1},\ \pm\frac{2\pi}{T_1},\ \pm\frac{3\pi}{T_1},\ldots
+   $$
+
+4. **Relación entre duración y ancho espectral:** a mayor duración de la señal en el tiempo, el espectro se hace más angosto. Por el contrario, a menor duración, el espectro se ensancha.
+
+5. **Concentración de energía:** la mayor concentración de energía se encuentra alrededor de $\omega=0$, en el lóbulo principal de la función sinc.
+
+### Transformada de Fourier en Hz
+
+Si expresamos el espectro en función de la frecuencia $f$, utilizando $\omega=2\pi f$, obtenemos:
+
+$$
+X(jf)=\frac{2\operatorname{sen}(2\pi fT_1)}{2\pi f}
+$$
+
+Simplificando:
+
+$$
+\boxed{X(jf)=2T_1\frac{\operatorname{sen}(2\pi fT_1)}{2\pi fT_1}}
+$$
+
+**La amplitud del espectro no cambia entre $X(j\omega)$ y $X(jf)$; únicamente cambia la escala del eje horizontal.**
+
+En ambas representaciones, el máximo del espectro es $2T_1$.
+---
+
+
 ## 🎯 Conclusiones
 
 - La TF y la ITF pueden formularse utilizando frecuencia angular $\omega$ (rad/s) o frecuencia ordinaria $f$ (Hz).
