@@ -192,7 +192,6 @@ Se reconoce que algunas instrucciones pueden ser similares debido a la naturalez
 ### 📅 4. Fecha de entrega
 
 - **Fecha máxima:** 19 de noviembre de 2026.
-- **Penalización:** a partir de la primera entrega válida, se descontarán **10 décimas (escala 0-500) por cada día transcurrido** hasta la entrega de cada grupo.
 
 📌 La entrega se considerará realizada cuando el grupo proporcione el enlace al repositorio de GitHub con todos los archivos y resultados solicitados.
 
@@ -224,20 +223,6 @@ Donde:
 - **N₁:** calificación del código de Imitation.
 - **N₂:** calificación del código de cálculo de métricas.
 - **N₃:** calificación de la interpretación de resultados.
-
-### ⏳ Penalización por tiempo de entrega
-
-A partir de la primera entrega válida, se descontarán **0.2 puntos por cada día transcurrido** hasta la entrega de cada grupo.
-
-$$
-N_{final} = \max(0,\ N - 0.1d)
-$$
-
-Donde:
-
-- **N:** calificación obtenida según la rúbrica.
-- **d:** número de días transcurridos desde la primera entrega válida.
-- **N_final:** calificación definitiva después de aplicar la penalización.
 
 📅 **Fecha máxima de entrega: 19 de noviembre de 2026.**
 
