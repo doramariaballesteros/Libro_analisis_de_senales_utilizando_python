@@ -202,16 +202,10 @@ Consideremos una señal cuadrada aperiódica, de amplitud unitaria y duración f
 
 ### Ejemplo 38. TF de la señal cuadrada aperiódica
 
-Sea la señal:
+La señal se define por:
 
-$$
-x(t)=\left\{
-\begin{array}{ll}
-1 & \text{si } |t| < T_1 \\
-0 & \text{en otro caso}
-\end{array}
-\right.
-$$
+- $x(t)=1$ para $|t|<T_1$.
+- $x(t)=0$ en cualquier otro caso.
 
 Donde $2T_1$ corresponde a la duración total de la señal (tiempo en alto), centrada en $t=0$, con $T_1>0$.
 
