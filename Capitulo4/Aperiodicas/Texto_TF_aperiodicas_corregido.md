@@ -147,23 +147,26 @@ La siguiente figura compara las señales temporales y los espectros de magnitud 
 
 ### Ejemplo 36. Impulso unitario en tiempo continuo
 
+
+### Ejemplo 36. Impulso unitario en tiempo continuo
+
 Sea:
 
-```math
+$$
 x(t)=\delta(t)
-```
+$$
 
 Aplicando la propiedad de muestreo del impulso de Dirac:
 
-```math
+$$
 X(j\omega)=\int_{-\infty}^{\infty}\delta(t)e^{-j\omega t}\,dt=\boxed{1}
-```
+$$
 
 De igual manera, en Hz:
 
-```math
+$$
 \boxed{X(jf)=1}
-```
+$$
 
 El impulso en el tiempo tiene un **espectro constante e igual a 1** en ambas representaciones de frecuencia.
 
@@ -171,21 +174,21 @@ El impulso en el tiempo tiene un **espectro constante e igual a 1** en ambas rep
 
 Sea:
 
-```math
+$$
 x(t)=1
-```
+$$
 
 Su Transformada de Fourier en frecuencia angular es:
 
-```math
+$$
 \boxed{X(j\omega)=2\pi\delta(\omega)}
-```
+$$
 
 En frecuencia ordinaria:
 
-```math
+$$
 \boxed{X(jf)=\delta(f)}
-```
+$$
 
 El espectro está formado por **un único impulso en frecuencia cero**. Los coeficientes que acompañan al impulso son $2\pi$ en rad/s y $1$ en Hz, debido a la propiedad de escalamiento de la delta de Dirac. Estos coeficientes representan el peso del impulso, no una altura finita de la función delta.
 
