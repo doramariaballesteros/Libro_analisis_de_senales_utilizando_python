@@ -147,9 +147,6 @@ La siguiente figura compara las señales temporales y los espectros de magnitud 
 
 ### Ejemplo 36. Impulso unitario en tiempo continuo
 
-
-### Ejemplo 36. Impulso unitario en tiempo continuo
-
 Sea:
 
 $$
@@ -286,25 +283,27 @@ A partir de la expresión matemática y de la representación gráfica, podemos 
 
 4. **Relación entre duración y ancho espectral:** a mayor duración de la señal en el tiempo, el espectro se hace más angosto. Por el contrario, a menor duración, el espectro se ensancha.
 
+
 5. **Concentración de energía:** la mayor concentración de energía se encuentra alrededor de $\omega=0$, en el lóbulo principal de la función sinc.
 
 ### Transformada de Fourier en Hz
 
 Si expresamos el espectro en función de la frecuencia $f$, utilizando $\omega=2\pi f$, obtenemos:
 
-```math
-X(jf)=\frac{2\operatorname{sen}(2\pi fT_1)}{2\pi f}
-```
+$$
+X(jf)=\frac{2\mathrm{sen}(2\pi fT_1)}{2\pi f}
+$$
 
 Simplificando:
 
-```math
-\boxed{X(jf)=2T_1\frac{\operatorname{sen}(2\pi fT_1)}{2\pi fT_1}}
-```
+$$
+\boxed{X(jf)=2T_1\frac{\mathrm{sen}(2\pi fT_1)}{2\pi fT_1}}
+$$
 
 **La amplitud del espectro no cambia entre $X(j\omega)$ y $X(jf)$; únicamente cambia la escala del eje horizontal.**
 
 En ambas representaciones, el máximo del espectro es $2T_1$.
+
 ---
 
 
